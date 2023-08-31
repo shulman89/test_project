@@ -1,0 +1,21 @@
+.wrapper {
+  background-image: url("../media/ilon1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  @media(max-width: 1300px) {
+    background-image: url("../media/ilon2.png");
+  }
+
+
+
+  .container {
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+}
